@@ -1,0 +1,105 @@
+.grid__col--1 {
+  width: 25%; }
+
+.grid__col--2 {
+  width: 50%; }
+
+.grid__col--3 {
+  width: 75%; }
+
+.grid__col--4 {
+  width: 100%; }
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  font-size: 0; }
+
+button {
+  height: 20%;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: rgba(255, 0, 0, 0);
+  cursor: pointer; }
+
+button:active {
+  outline: none;
+  border: none; }
+
+button:focus {
+  outline: none; }
+
+.form {
+  width: 26.9rem;
+  height: 33.3rem;
+  background-color: #60b462;
+  margin: 0 auto;
+  margin-top: 2rem; }
+
+.form__operator {
+  background-color: #80c180;
+  border: 0.5px solid rgba(255, 255, 255, 0.25);
+  float: left;
+  font-size: 2.25rem;
+  color: black;
+  font-weight: 100;
+  text-align: center;
+  padding-top: 0.5rem; }
+
+.form__operator:hover {
+  color: white; }
+
+.form__generalButton {
+  border: 0.5px solid rgba(255, 255, 255, 0.25);
+  float: left;
+  font-size: 2.25rem;
+  color: white;
+  font-weight: 100;
+  padding-top: 0.5rem;
+  text-align: center; }
+
+.form__output {
+  width: 75%;
+  height: 20%;
+  border: 0.5px solid rgba(255, 255, 255, 0.25);
+  float: left;
+  color: white;
+  font-size: 2.25rem;
+  text-align: right;
+  font-weight: 100;
+  padding-top: 1.75rem;
+  padding-right: 2rem; }
+
+.form__clear {
+  border: 0.5px solid rgba(255, 255, 255, 0.25);
+  float: left;
+  font-size: 2.25rem;
+  color: white;
+  font-weight: 100;
+  padding-top: 0.5rem;
+  text-align: center; }
+
+.form__clear:hover {
+  background-color: #80c180; }
+
+.form__equate {
+  border: 0.5px solid rgba(255, 255, 255, 0.25);
+  float: left;
+  font-size: 2.25rem;
+  color: white;
+  font-weight: 100;
+  padding-top: 0.5rem;
+  text-align: center; }
+
+.form__equate:hover {
+  background-color: #80c180; }
+
+/*# sourceMappingURL=main.css.map */

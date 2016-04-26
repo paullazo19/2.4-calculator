@@ -1,0 +1,9 @@
+// Grid
+
+$number-of-columns: 4
+
+@for $i from 1 through $number-of-columns
+  .grid__col--#{$i}
+    width: (100% / $number-of-columns) * $i
+
+    
